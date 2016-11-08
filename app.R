@@ -20,7 +20,7 @@ library(wordcloud)
 library(stringr)
 
 
-#setwd("~/Schoolwork/NUS/1617 Sem 1/BT2101 IT and Decision Making/bt2101 Group Project/Shiny/SIA.dashboard")
+setwd("/Users/benjaminong/Desktop/Shiny/SIA_dashboard")
 
 most.countries = setDT(read.csv("most_countries.csv", as.is = T))
 overall.top.500 = setDT(read.csv("overall_top_500.csv", as.is = T))

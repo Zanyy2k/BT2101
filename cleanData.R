@@ -1,7 +1,7 @@
 library(dplyr)
 library(data.table)
 
-setwd("/Users/benjaminong/Desktop/Shiny/SIA.dashboard")
+setwd("/Users/benjaminong/Desktop/Shiny/SIA_dashboard")
 
 followees = setDT(read.csv("followees.csv", as.is = T))
 country = read.csv("followers_by_country.csv", as.is = T)
